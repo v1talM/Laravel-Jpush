@@ -17,7 +17,7 @@ class JpushServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '\..\Config/laravel-jpush.php' => config_path('laravel-jpush.php'),
+            __DIR__.'/../Config/Laravel-Jpush.php' => config_path('laravel-jpush.php'),
         ]);
     }
 
