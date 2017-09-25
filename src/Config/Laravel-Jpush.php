@@ -6,6 +6,6 @@
  */
 
 return [
-    'app-key' => '',
-    'app-secret' => ''
+    'app-key' => env('JPUSH_APP_KEY', ''),
+    'app-secret' => env('JPUSH_APP_SECRET', '')
 ];
