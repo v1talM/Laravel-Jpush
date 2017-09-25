@@ -1,0 +1,21 @@
+{
+    "name": "phpvital/laravel-jpush",
+    "description": "Jpush service provider for laravel5.4",
+    "type": "laravel-package",
+    "require": {
+        "jpush/jpush": "3.5.22"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vital",
+            "email": "373357042@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vital\\Jpush": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
