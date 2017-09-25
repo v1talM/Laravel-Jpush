@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vital\\Jpush": "src/"
+            "Vital\\Jpush\\": "src/"
         }
     },
     "minimum-stability": "dev"
