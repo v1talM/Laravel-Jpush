@@ -1,6 +1,7 @@
 {
     "name": "phpvital/laravel-jpush",
     "description": "Jpush service provider for laravel5.4",
+    "minimum-stability": "dev",
     "type": "laravel-package",
     "require": {
         "jpush/jpush": "3.5.22"
@@ -16,6 +17,5 @@
         "psr-4": {
             "Vital\\Jpush\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
