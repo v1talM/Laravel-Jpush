@@ -11,7 +11,7 @@ namespace Vital\Jpush\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class JpushFacade extends Facade
+class Jpush extends Facade
 {
     protected static function getFacadeAccessor()
     {
